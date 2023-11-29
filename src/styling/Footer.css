@@ -1,0 +1,20 @@
+.container {
+  background-color: #17478d;
+  display: flex;
+}
+.footer-down {
+  background-color: #133a75;
+  height: 90px;
+  color: white;
+  text-align: center;
+  display: flex;
+}
+
+.footer-down-right {
+  margin-left: 500px;
+}
+
+.footer-down-left {
+  margin-right: 10px;
+  margin-left: 70px;
+}

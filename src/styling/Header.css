@@ -1,0 +1,79 @@
+.header-top {
+  width: 100%;
+  height: 100%;
+  font-size: small;
+  align-items: center;
+  color: white;
+  background-color: #133a75;
+  justify-content: end;
+  display: flex;
+}
+
+.header {
+  width: 100%;
+  height: 50px;
+  background-color: white;
+  /* position: sticky; */
+  top: 0;
+  /* when u choose flex u get options for align-items: ; */
+  align-items: center;
+  font-family: "Montserrat font family";
+  z-index: 999;
+}
+.header-bottom {
+  display: grid;
+  margin-top: 10px;
+
+  grid-template-columns: 30% 70%;
+  column-gap: 100px;
+}
+.header-left,
+.header-right {
+  flex: 3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-center {
+  flex: 6;
+}
+
+.header-list {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.header-list-item {
+  margin-right: 70px;
+  font-size: 10px;
+  font-weight: 300;
+  cursor: none;
+  font-family: "Montserrat", sans-serif;
+}
+
+.header-search-icon {
+  font-size: 18px;
+  color: #666;
+  cursor: pointer;
+  margin-left: 15px;
+}
+
+.logo {
+  font-size: 25px;
+  color: #133a75;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  align-items: center;
+  margin-left: 10px;
+}
+
+.header-top-email {
+  margin-right: 100px;
+}
+.header-top-phone {
+  margin-right: 10px;
+}

@@ -1,0 +1,14 @@
+.image-wrapper {
+  /* width: 100%;
+  height: 100px; */
+  margin-top: 45px;
+}
+
+.main-content {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  height: 100px;
+}
+.info-form {
+  display: flex;
+}
