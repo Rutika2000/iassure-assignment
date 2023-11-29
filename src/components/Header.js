@@ -1,19 +1,20 @@
 import React from "react";
 import "../styling/Header.css";
-
+import PhoneAndroidIcon from "@mui/icons-material/PhoneAndroid";
+import MailOutlineIcon from "@mui/icons-material/MailOutline";
 function Header() {
   return (
     <div className="header">
       <div className="header-top">
         <div className="header-top-phone">
           <a>
-            <i classname="header-top fa-brands fa-instagram fa-thin fa-mobile-screen-button"></i>
+            <PhoneAndroidIcon className="footer-icon" />
             +91 12345 67890
           </a>
         </div>
         <div className="header-top-email">
           <a>
-            <i classname="header-top fa-thin fa-envelope"></i>
+            <MailOutlineIcon className="footer-icon" />
           </a>{" "}
           info@company.com
         </div>

@@ -1,20 +1,35 @@
-.container {
+.footer {
   background-color: #17478d;
-  display: flex;
-}
-.footer-down {
-  background-color: #133a75;
-  height: 90px;
-  color: white;
-  text-align: center;
-  display: flex;
+  color: #fff;
+  padding: 20px 0;
+  font-family: "Montserrat", sans-serif;
 }
 
-.footer-down-right {
-  margin-left: 500px;
+.footer-container {
+  display: flex;
+  justify-content: space-around;
 }
 
-.footer-down-left {
-  margin-right: 10px;
-  margin-left: 70px;
+.footer-list {
+  width: 500px;
+  list-style-type: none;
+  padding: 0;
+}
+
+.footer-list li {
+  cursor: pointer;
+  margin-bottom: 8px;
+}
+
+.footer-list li:hover {
+  text-decoration: underline;
+}
+
+.get-in-touch {
+  text-wrap: wrap;
+  text-decoration: none;
+}
+
+.footer-icon {
+  font-size: 20px !important;
 }

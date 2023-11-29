@@ -6,6 +6,14 @@ function Home() {
     <div className="home-top">
       <div className="image-wrapper">
         <img src="/assets/Background.webp" alt=""></img>
+        <div className="text-overlay">
+          <h1>Contact Us</h1>
+          <p>
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+            nonummy nibh euismod tincidunt ut laoreet{" "}
+          </p>
+          <button>Home &gt;&gt; Contact Us</button>
+        </div>
       </div>
 
       <div className="main-content">
@@ -34,7 +42,22 @@ function Home() {
           </div>
         </div>
 
-        <div className="query-form"></div>
+        <div className="query-form">
+          <form>
+            {" "}
+            <label for="fname">First name:</label>
+            <br />
+            <input type="text" id="fname" name="fname" value="John" />
+            <br />
+            <label for="lname">Last name:</label>
+            <br />
+            <input type="text" id="lname" name="lname" value="Doe" />
+          </form>
+        </div>
+      </div>
+
+      <div className="image-wrapper">
+        <img src="/assets/map.jpeg" alt=""></img>
       </div>
     </div>
   );
